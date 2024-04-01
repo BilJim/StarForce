@@ -12,6 +12,7 @@ namespace StarForce
 {
     public class ProcedureInitResources : ProcedureBase
     {
+        //判断资源是否初始化完成
         private bool m_InitResourcesComplete = false;
 
         public override bool UseNativeDialog
